@@ -1,10 +1,5 @@
 public class FibonacciIterative implements Fibonacci {
-	public static void main(String[] args) {
-		int num = Integer.parseInt(args[0]);
-		int result = fibonacci(num);
-		System.out.printf("Fibonacci %d is = %d\n", num, result);
-	}
-	public static int fibonacci(int n) {
+	public int fibonacci(int n) {
 		int firstNum = 0;
 		int secondNum = 1;
 
